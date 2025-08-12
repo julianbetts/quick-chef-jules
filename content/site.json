@@ -1,0 +1,85 @@
+{
+  "brand": "Chef Jules",
+  "heroHeadline": "Chef Jules",
+  "heroSub": "Private Chef",
+  "cta": {
+    "text": "Book Your Event",
+    "href": "#contact"
+  },
+  "aboutTitle": "About Me",
+  "aboutBody": "<p>Hi, I'm Jules. I've been cooking professionally for over 10 years, working in restaurants and now as a private chef. I love creating personalized dining experiences that bring people together around great food.</p><p>I specialize in French and Mediterranean cuisine, but I'm happy to work with any style or dietary requirements. Every menu is customized to your preferences and the occasion.</p>",
+  "services": [
+    {
+      "title": "Private Dinners",
+      "description": "Intimate dinner parties at your home. I handle everything from shopping to cleanup."
+    },
+    {
+      "title": "Special Events",
+      "description": "Birthdays, anniversaries, and celebrations. Custom menus for your special day."
+    },
+    {
+      "title": "Weekly Meals",
+      "description": "Healthy, prepared meals for the week. Perfect for busy families or individuals."
+    },
+    {
+      "title": "Cooking Classes",
+      "description": "Learn to cook in your own kitchen. Great for date nights or group activities."
+    }
+  ],
+  "menuTitle": "Sample Menu",
+  "menuItems": [
+    {
+      "course": "Starter",
+      "description": "Seared scallops with cauliflower purée"
+    },
+    {
+      "course": "Main",
+      "description": "Duck confit with roasted vegetables"
+    },
+    {
+      "course": "Dessert",
+      "description": "Chocolate soufflé with vanilla ice cream"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Chef Jules transformed our anniversary dinner into an unforgettable experience. The attention to detail and personalized menu exceeded all expectations.",
+      "author": "Sarah & Michael",
+      "event": "Anniversary Celebration"
+    },
+    {
+      "quote": "The corporate dinner was a huge success. Chef Jules handled everything professionally, from dietary restrictions to wine pairings.",
+      "author": "Jennifer Chen",
+      "event": "Corporate Event"
+    },
+    {
+      "quote": "Weekly meal prep has changed our lives. Fresh, healthy, and delicious meals that make eating well effortless.",
+      "author": "David Rodriguez",
+      "event": "Weekly Meal Prep"
+    }
+  ],
+  "contactNote": "Let's talk about your event",
+  "emailBtn": {
+    "text": "jules@example.com",
+    "email": "jules@example.com"
+  },
+  "insta": {
+    "handle": "@chefjules",
+    "url": "https://instagram.com/chefjules"
+  },
+  "footer": "© 2024 Chef Jules. All rights reserved.",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Chef Jules",
+    "description": "Private Chef Services",
+    "url": "https://chefjules.com",
+    "telephone": "+1-555-123-4567",
+    "email": "jules@example.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Metropolitan Area"
+    },
+    "serviceType": "Private Chef Services"
+  }
+}
