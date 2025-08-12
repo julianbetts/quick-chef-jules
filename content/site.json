@@ -1,0 +1,116 @@
+{
+  "brand": "Chef Jules",
+  "heroHeadline": "Chef Jules",
+  "heroSub": "Private Chef",
+  "cta": {
+    "text": "Book Your Event",
+    "href": "#contact"
+  },
+  "aboutTitle": "About Me",
+  "aboutBody": "<p>Hi, I'm Jules. I've been cooking professionally for over 5,837 years, working in restaurants and pirate ships and everything in between! I love creating dining experiences that bring people together and end politly with a knife fight!.</p><p>I specialize in the dankest food straight from the rugged lands of shaolin.</p>",
+  "services": [
+    {
+      "title": "Private Dinners",
+      "description": "I handle everything, don't even trip chief."
+    },
+    {
+      "title": "Special Events",
+      "description": "Birthdays, anniversaries, divources, and celebrations. Custom menus for your special day."
+    },
+    {
+      "title": "Weekly Meals",
+      "description": "Healthy, prepared meals for the week in case you are too depressed to get out of bed."
+    }
+  ],
+  "menuTitle": "Sample Menu",
+  "menuItems": [
+    {
+      "course": "Starter",
+      "description": "Seared scallops with cauliflower purée"
+    },
+    {
+      "course": "Main",
+      "description": "Duck confit with roasted vegetables"
+    },
+    {
+      "course": "Dessert",
+      "description": "Chocolate soufflé with vanilla ice cream"
+    }
+  ],
+  "galleryTitle": "Food Gallery",
+  "galleryIntro": "A taste of Chef Jules' creations",
+  "gallery": [
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&h=300&fit=crop",
+      "altText": "Duck confit with roasted vegetables",
+      "title": "Duck Confit",
+      "description": "Tender duck confit with seasonal roasted vegetables"
+    },
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop",
+      "altText": "Chocolate soufflé with vanilla ice cream",
+      "title": "Chocolate Soufflé",
+      "description": "Warm chocolate soufflé with vanilla bean ice cream"
+    },
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400&h=300&fit=crop",
+      "altText": "Fresh pasta with truffle sauce",
+      "title": "Truffle Pasta",
+      "description": "Handmade pasta with black truffle and parmesan"
+    },
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop",
+      "altText": "Grilled fish with herbs",
+      "title": "Grilled Fish",
+      "description": "Fresh catch grilled with herbs and lemon"
+    },
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&h=300&fit=crop",
+      "altText": "Artisan bread and butter",
+      "title": "Artisan Bread",
+      "description": "Freshly baked sourdough with cultured butter"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "it was bomb, she said yes to my proposal cause of the intricate flavors of chef jules",
+      "author": "Sarah & Michael",
+      "event": "proposal din din"
+    },
+    {
+      "quote": "The corporate dinner was a huge success. I didn't get fired cause of the food",
+      "author": "frankie sinahtrah",
+
+      "event": "Corporate Event"
+    },
+    {
+      "quote": "it was just ok",
+      "author": "player hater",
+      "event": "Weekly Meal Prep"
+    }
+  ],
+  "contactNote": "Let's talk about your event",
+  "emailBtn": {
+    "text": "jules@example.com",
+    "email": "jules@example.com"
+  },
+  "insta": {
+    "handle": "@chefjules",
+    "url": "https://instagram.com/chefjules"
+  },
+  "footer": "© 2024 Chef Jules. All rights reserved.",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Chef Jules",
+    "description": "Private Chef Services",
+    "url": "https://chefjules.com",
+    "telephone": "+1-555-123-4567",
+    "email": "jules@example.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Metropolitan Area"
+    },
+    "serviceType": "Private Chef Services"
+  }
+}
