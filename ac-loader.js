@@ -38,6 +38,8 @@ class AntiCoderLoader {
         this.updateElement('about-title', data.aboutTitle);
         this.updateElement('about-body', data.aboutBody);
         this.updateElement('menu-title', data.menuTitle);
+        this.updateElement('gallery-title', data.galleryTitle);
+        this.updateElement('gallery-intro', data.galleryIntro);
         this.updateElement('contact-note', data.contactNote);
         this.updateElement('footer', data.footer);
 
@@ -55,6 +57,9 @@ class AntiCoderLoader {
 
         // Inject menu items
         this.injectMenuItems(data.menuItems);
+
+        // Inject gallery
+        this.injectGallery(data.gallery);
 
         // Inject testimonials
         this.injectTestimonials(data.testimonials);
@@ -117,6 +122,21 @@ class AntiCoderLoader {
             <div class="menu-item">
                 <h4>${item.course}</h4>
                 <p>${item.description}</p>
+            </div>
+        `).join('');
+    }
+
+    injectGallery(galleryData) {
+        const container = document.querySelector('[data-ac="gallery"]');
+        if (!container || !galleryData) return;
+
+        container.innerHTML = galleryData.map(item => `
+            <div class="gallery-item">
+                <img src="${item.imageUrl}" alt="${item.altText}" class="gallery-image">
+                <div class="gallery-caption">
+                    <h4>${item.title}</h4>
+                    <p>${item.description}</p>
+                </div>
             </div>
         `).join('');
     }
